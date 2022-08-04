@@ -7,6 +7,6 @@ headers: {'Content-Type': 'application/json'}
 }
 
 );
-console.log("222")
+console.log("we are in feature/index")
 
 export const checkoutPaymentPost = (tokenId,amount) => API.post('/api/checkout/payment',{tokenId,amount});
